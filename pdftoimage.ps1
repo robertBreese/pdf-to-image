@@ -1,4 +1,4 @@
-#get current parth that script file is in
+#get current path that script file is in
 $scriptPath = split-path -parent $MyInvocation.MyCommand.Definition
 
 $GSInstalledLocation=$scriptPath+"\ghost\gswin64c.exe"
