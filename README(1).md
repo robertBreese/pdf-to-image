@@ -1,10 +1,10 @@
 # PDF to Image
 
-PDF to Image is a Powershell script written for Ecological Consulting Solutions so they may auto convert PDFs within the /Communities/<communityname>/Maps folders to images. Once converted to images, the excel report generator can insert them into the final report. After the PDFs are converted to image, the IMG file remains in /Maps/ and the original PDF is moved to /Maps/Archive. If the PDF name matches the existing, a number will be added to the end of name. Anytime a new PDF is added to a folder with an image file already inside, it moves the old Image to /Maps/Archive and converts the newly added PDF. 
+PDF to Image is a Powershell script that converts PDFs within the /Communities/<communityname>/Maps folders to images. Once converted to images, the excel report generator can insert them into the final report. After the PDFs are converted to image, the IMG file remains in /Maps/ and the original PDF is moved to /Maps/Archive. If the PDF name matches the existing, a number will be added to the end of name. Anytime a new PDF is added to a folder with an image file already inside, it moves the old Image to /Maps/Archive and converts the newly added PDF. 
 
 ## Installation
 
-Drag "ECS PDFtoIMG" folder to your documents. Make sure "ghost" folder exists. If script keeps failing you may need to download and install "Ghostscript". 
+Drag "PDFtoIMG" folder to your documents. Make sure "ghost" folder exists. If script keeps failing you may need to download and install "Ghostscript". 
 
 ## Usage
 
@@ -14,7 +14,7 @@ Right click pdftoimage.ps1 and click "Run with PowerShell", a blue window will p
 
 MIT License
 
-Copyright (c) 2021 Robert Breese - Ecological Consulting Solutions - Jinx-IT
+Copyright (c) 2021 Robert Breese - Jinx-IT
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
