@@ -14,7 +14,7 @@ Right click pdftoimage.ps1 and click "Run with PowerShell", a blue window will p
 
 MIT License
 
-Copyright (c) 2021 Robert Breese - Jinx-IT
+Copyright (c) 2021 Robert Breese
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
